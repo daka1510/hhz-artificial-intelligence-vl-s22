@@ -18,4 +18,5 @@ This folder contains guidelines that walk you through common tasks needed to com
 - [How can I create an IBM Cloud API key?](./create-ibm-cloud-api-key)
 - [How can I download files from Github?](./download-files-github)
 - [How long can I use notebooks in Watson Studio for free?](./capacity-unit-hours)
+- [How can I request an Academice Initiative promocode?](./request-promocode)
 
