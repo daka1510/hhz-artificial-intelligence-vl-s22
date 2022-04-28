@@ -18,8 +18,8 @@ print(tfds.__version__)
 
 2. Update or install `tensorflow` and `tensorflow-datasets` via the commands below as needed:
 ```
-! pip install tensorflow_datasets==4.4.0
-! pip install tensorflow==2.7.0
+pip install tensorflow_datasets==4.5.2
+pip install tensorflow==2.8.0
 ```
 
 3. Restart your Kernel via (Kernel > Restart) and check if the installation succeeded (via step 1)
