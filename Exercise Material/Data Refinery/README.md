@@ -19,13 +19,13 @@ In your _Watson Studio_ project
   - depending on the size of your dataset you may not operate on the full data set, check the details in the bottom once loading completed for details. The titanic data set only has 891 rows and you can operate on the full data set with Data Refinery:
 ![](./screenshots/04.png)
   - on other (bigger) data sets you may only operate on a sample set of the data (current limit: 10.000), see status bar or documentation for details: 
-![](./screenshots/05.png)
+
 
 Use the 
   - _Data_ tab to cleanse and shape the data
   - _Profile_ tab to validate and find anomalies in the data
   - _Visualizations_ tab to get insights into the data 
-- Note that the individual data transformation steps applied to the source data set are listed on the right hand side
+- Note that the individual data transformation steps applied to the source data set are listed on the left hand side
 
 
 ## Prepare Data with Data Refinery
