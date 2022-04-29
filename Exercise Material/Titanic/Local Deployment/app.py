@@ -18,15 +18,7 @@ app = Flask(__name__)
 
 model_columns = joblib.load(model_columns_file_name)
 trained_model = joblib.load(model_file_name)
-
-
-input = [
-    {"Age": 85, "Sex": "male", "Embarked": "S"},                 
-    {"Age": 24, "Sex": "female", "Embarked": "C"},
-    {"Age": 3, "Sex": "male", "Embarked": "C"},
-    {"Age": 21, "Sex": "male", "Embarked": "S"}
-]
-                              
+                
 
 # Create an API end point
 @app.route('/predict', methods=['GET'])
